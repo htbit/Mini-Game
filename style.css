@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#scene {
+    position: relative;
+    background-color: #8AADE5;
+    width: 90%;
+    height: 90vh;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#menu {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+#game-bar {
+    padding: 0 70px;
+}
+
+.game-bar__buttons {
+    text-align: center;
+}
+
+#canister-line {
+    width: 100px;
+    text-align: center;
+    background-color: #4CAF50;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #fff;
+}
+
+#continue {
+    display: none;
+}
+
+/*Models*/
+
+.plane {
+    position: absolute;
+    top: 50%;
+    left: 60px;
+    width: 140px;
+    height: 62px;
+    background-repeat: no-repeat;
+    background-image: url("images/plane/plane.png");
+    background-size: contain;
+}
+
+.cloud {
+    position: absolute;
+    width: 130px;
+    height: 70px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#clouds1 {
+    right: -100px;
+    background-image: url("images/cloud/cloud.png");
+}
+
+.canister-block {
+    background-color: #00071d;
+    width: 100px;
+    height: 28px;
+}
+
+#clouds2 {
+    right: -300px;
+    background-image: url("images/cloud/cloud1.png");
+}
+
+#clouds3 {
+    right: -500px;
+    background-image: url("images/cloud/cloud2.png");
+}
+
+#clouds4 {
+    right: -700px;
+    background-image: url("images/cloud/cloud3.png");
+}
+
+.bird {
+    position: absolute;
+    width: 70px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#birds1 {
+    right: -100px;
+    top: 200px;
+    background-image: url("images/bird/bird.gif");
+}
+
+
+#birds2 {
+    right: -300px;
+    top: 100px;
+    background-image: url("images/bird/bird1.gif");
+}
+
+#birds3 {
+    right: -500px;
+    top: 400px;
+    background-image: url("images/bird/bird2.gif");
+}
+
+#birds4 {
+    right: -700px;
+    top: 600px;
+    background-image: url("images/bird/bird3.gif");
+}
+
+.star {
+    position: absolute;
+    top: 500px;
+    right: -500px;
+    height: 70px;
+    width: 70px;
+    background-image: url("images/flyer/star.png");
+    background-size: cover;
+}
+
+
+.canister {
+    position: absolute;
+    top: 300px;
+    right: -300px;
+    height: 70px;
+    width: 70px;
+    background-image: url("images/flyer/canister.png");
+    background-size: cover;
+}

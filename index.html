@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!--Menu-->
+<div id="menu">
+  <button class="play-game">Play</button>
+</div>
+<!--End Menu-->
+
+<!--Scene-->
+<div id="scene">
+  <!--Plane-->
+  <div class="plane"></div>
+
+  <!--Clouds-->
+  <div class="cloud" id="clouds1"></div>
+  <div class="cloud" id="clouds2"></div>
+  <div class="cloud" id="clouds3"></div>
+  <div class="cloud" id="clouds4"></div>
+
+  <!--Birds-->
+  <div class="bird" id="birds1"></div>
+  <div class="bird" id="birds2"></div>
+  <div class="bird" id="birds3"></div>
+  <div class="bird" id="birds4"></div>
+
+  <!--Stars-->
+  <div class="star"></div>
+
+  <!--Canisters-->
+  <div class="canister"></div>
+</div>
+<!--End Scene-->
+
+<!--Game Bar-->
+<div id="game-bar">
+
+  <!--Score Track-->
+  <div>Score: <span id="score-tracker">0</span></div>
+
+  <!--Star Track-->
+  <div>Stars: <span id="star-tracker">0</span></div>
+
+  <!--Canister Track-->
+  <div class="canister-block">
+    <div id="canister-line">100</div>
+  </div>
+  <!--End Canister Track-->
+
+  <div class="game-bar__buttons">
+    <!--Pause Button-->
+    <button id="pause">Pause</button>
+
+    <!--Continue Button-->
+    <button id="continue">Continue</button>
+  </div>
+
+</div>
+<!--End Game Bar-->
+
+<script src="jquery-3.3.1.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
