@@ -1,1 +1,3 @@
-# This project mini-game for WorldSkills Astana
+## Проэкт мини-игра на JS.
+
+В игре вы управляете самелетом и должны набрать больше всех очков
